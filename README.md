@@ -62,3 +62,17 @@
     "start": "node dist/index.js",
     "dev": "tsc -w & nodemon -w dist/index.js"
 ```
+
+## 7. Create gitignore file
+
+```
+/dist
+/node_modules
+.env
+/src/graphql/generated.ts
+**/*.DS_Store
+```
+
+## 8. Rename master to main
+
+`git branch -m master main`
